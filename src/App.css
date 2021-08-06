@@ -1,17 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +10,59 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.header{
+  color: #e9edf5;
+  background-color: #0592ca;
+  display: flex;
+  flex-direction: row;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-h1{
+  margin-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-Button{
+
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 900px;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;  
+  background-color:transparent;
+  text-decoration: dotted;
+  border-radius: 10px;
+  color: white;
+  
+}
+.mainStyle{
+  
+  margin-left: 50px;
+  margin-right: 10px;
+}
+#btn{
+  margin-left: 800px;
+  margin-top:20px;
+
+}
+table
+{
+  margin: 10 200 10 200;
+}
+.data-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 2px rgb(196, 196, 196);
+  border-radius: 7px;
+  background-color: rgb(224, 224, 224);
+  height: 30px;
+  margin-left: 0px 40px 0px 40px;
+}
+button{
+  width:200px;
+  height:40px;
 }
